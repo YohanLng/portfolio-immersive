@@ -1,0 +1,76 @@
+:root {
+  /* ========================================
+     COLORS
+     ======================================== */
+
+  --color-bg: #080b14;
+  --color-bg-soft: #111624;
+
+  --color-surface: rgba(255, 255, 255, 0.08);
+  --color-surface-hover: rgba(255, 255, 255, 0.14);
+
+  --color-white: #ffffff;
+  --color-text: rgba(255, 255, 255, 0.92);
+  --color-text-muted: rgba(255, 255, 255, 0.58);
+  --color-text-subtle: rgba(255, 255, 255, 0.38);
+
+  --color-lavender: #c8c5ff;
+  --color-blue: #aebeff;
+  --color-pink: #f5c9d8;
+
+  /* ========================================
+     GLASS
+     ======================================== */
+
+  --glass-bg: rgba(255, 255, 255, 0.08);
+  --glass-border: rgba(255, 255, 255, 0.18);
+  --glass-blur: 24px;
+
+  /* ========================================
+     GLOW
+     ======================================== */
+
+  --glow-lavender: rgba(200, 197, 255, 0.35);
+  --glow-blue: rgba(174, 190, 255, 0.3);
+  --glow-pink: rgba(245, 201, 216, 0.3);
+
+  /* ========================================
+     BORDER RADIUS
+     ======================================== */
+
+  --radius-sm: 10px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-xl: 32px;
+  --radius-pill: 999px;
+
+  /* ========================================
+     SPACING
+     ======================================== */
+
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+  --space-2xl: 48px;
+  --space-3xl: 64px;
+  --space-4xl: 96px;
+
+  /* ========================================
+     TRANSITIONS
+     ======================================== */
+
+  --transition-fast: 180ms ease;
+  --transition-normal: 300ms ease;
+  --transition-smooth: 500ms cubic-bezier(0.22, 1, 0.36, 1);
+
+  /* ========================================
+     Z-INDEX
+     ======================================== */
+
+  --z-background: 0;
+  --z-content: 10;
+  --z-navigation: 100;
+  --z-overlay: 1000;
+}
