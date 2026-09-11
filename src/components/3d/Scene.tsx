@@ -1,7 +1,9 @@
 import { Canvas } from '@react-three/fiber'
 import { Suspense } from 'react'
 import FloatingRock from './FloatingRock'
+import ReflectiveFloor from './ReflectiveFloor'
 import Planet from './Planet'
+import Mountains from './environment/Mountains'
 import './Scene.css'
 
 function Scene() {
@@ -37,7 +39,11 @@ function Scene() {
             distance={10}
             color="#bfc8ff"
           />
-
+          <Mountains />
+          <group position={[0, 0.35, -5]}>
+            <Mountains />
+          </group>
+          <ReflectiveFloor />
           <Planet />
           <FloatingRock
             position={[-1.9, 1.35, 0]}
