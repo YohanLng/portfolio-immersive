@@ -1,7 +1,10 @@
+import Scene from '../../components/3d/Scene'
 import './Hero.css'
+
 function Hero() {
   return (
-    <section className="hero">
+    <section id="home" className="hero">
+      <Scene />
       <div className="hero__content">
         <p className="hero__eyebrow">BIENVENUE DANS MON UNIVERS</p>
 
